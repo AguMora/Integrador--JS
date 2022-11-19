@@ -255,7 +255,7 @@ const addProduct = (e) => {
 
   if (isExistingCartProduct(product)) {
     addUnitToProduct(product);
-    showSuccessModal("Se agregó una unidad del producto al carrito");
+    showSuccessModal("Se agregó otra unidad del producto al carrito");
   } else {
 
     createCartProduct(product);
